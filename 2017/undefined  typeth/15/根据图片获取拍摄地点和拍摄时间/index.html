@@ -79,13 +79,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="彭盛凇的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="参考iOS 获得图片的时间（通过拍照和取出）如何获取iPhone拍摄的png照片的拍摄时间,位置信息等图片属性?   ###简单理念   拍照获取拍照即可通过CoreLocation获取当前位置和当前时间。 相册获取相册即可通过ALAssetsLibrary来获取拍摄时间和拍摄地点。   本软件是通过imagePick">
+<meta property="og:type" content="article">
+<meta property="og:title" content="根据图片获取拍摄地点和拍摄时间">
+<meta property="og:url" content="http://yoursite.com/2017/undefined  typeth/15/根据图片获取拍摄地点和拍摄时间/index.html">
 <meta property="og:site_name" content="彭盛凇的博客">
+<meta property="og:description" content="参考iOS 获得图片的时间（通过拍照和取出）如何获取iPhone拍摄的png照片的拍摄时间,位置信息等图片属性?   ###简单理念   拍照获取拍照即可通过CoreLocation获取当前位置和当前时间。 相册获取相册即可通过ALAssetsLibrary来获取拍摄时间和拍摄地点。   本软件是通过imagePicker的代理回调中获取info，并从info中获取大量有关的信息，部分图片没有是">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1505288-78d9b8f676a4ac7e.gif?imageMogr2/auto-orient/strip">
+<meta property="og:updated_time" content="2017-11-15T15:02:45.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="彭盛凇的博客">
+<meta name="twitter:title" content="根据图片获取拍摄地点和拍摄时间">
+<meta name="twitter:description" content="参考iOS 获得图片的时间（通过拍照和取出）如何获取iPhone拍摄的png照片的拍摄时间,位置信息等图片属性?   ###简单理念   拍照获取拍照即可通过CoreLocation获取当前位置和当前时间。 相册获取相册即可通过ALAssetsLibrary来获取拍摄时间和拍摄地点。   本软件是通过imagePicker的代理回调中获取info，并从info中获取大量有关的信息，部分图片没有是">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1505288-78d9b8f676a4ac7e.gif?imageMogr2/auto-orient/strip">
 
 
 
@@ -115,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/undefined  typeth/15/根据图片获取拍摄地点和拍摄时间/"/>
 
 
 
 
 
-  <title>彭盛凇的博客</title>
+  <title>根据图片获取拍摄地点和拍摄时间 | 彭盛凇的博客</title>
   
 
 
@@ -140,8 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,479 +219,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/undefined  typeth/15/CocoaPods最新镜像安装方式和常用相关命令（卸载，降级）/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="彭盛凇">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="彭盛凇的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/undefined  typeth/15/CocoaPods最新镜像安装方式和常用相关命令（卸载，降级）/" itemprop="url">CocoaPods最新镜像安装方式和常用相关命令（卸载，降级）</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-15T23:04:43+08:00">
-                2017-11-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>###安装顺序</p>
-<blockquote>
-<p>1、安装brew，安装链接如若更新，请点击<a href="http://brew.sh" target="_blank" rel="noopener">此链接</a>查看<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<hr>
-<blockquote>
-<p>2、安装Ruby<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install ruby</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<hr>
-<blockquote>
-<p>3、安装CocoaPods</p>
-<ol>
-<li>移除现有 Ruby 默认源<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem sources --remove https://rubygems.org/</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-</blockquote>
-<ol>
-<li><p>使用新的镜像源（非网络上的Taobao源）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> $ gem sources -a https://gems.ruby-china.org/</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>验证是否成功</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem sources -l</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装CocoaPods</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo gem install cocoapods</span><br><span class="line">$ pod setup</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-d60693d4056982e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="等待中"></p>
-<hr>
-<p>###监测下载进度</p>
-<blockquote>
-<p>1、跳转指定文件夹<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~/.cocoapods</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>2、监测网络下载进度<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ du -sh *</span><br></pre></td></tr></table></figure></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-47ff3ae7ec8ccfdf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="监测界面"></p>
-<p>ps： 再执行安装CocoaPods时 执行<figure class="highlight plain"><figcaption><span>pod setup```需要等待大约半个多小时时间，有时等待了也会报错，此处可以偷鸡</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line">###偷鸡教学</span><br><span class="line"></span><br><span class="line">&gt; 1、[点击此处下载文件](http://pan.baidu.com/s/1hsr24uS)```提取密码为52r5 ```下载Repos文件并解压</span><br><span class="line"></span><br><span class="line">&gt; 2、打开Terminal，输入命令行 ```open ~/.cocoapods</span><br></pre></td></tr></table></figure></p>
-<blockquote>
-<p>3、将解压文件替换文件夹Repos</p>
-<p>4、再次打开Terminal，输入命令行<figure class="highlight plain"><figcaption><span>search afn```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt; </span><br><span class="line">&gt; 5、如果出现下图为安装完成</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">![成功界面](http://upload-images.jianshu.io/upload_images/1505288-751aad7106fdcc8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&gt; 查看CocoaPods版本</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>$ pod –version<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">###卸载CocoaPods</span><br><span class="line">&gt; 1. 查看CocoaPods路径</span><br></pre></td></tr></table></figure></p>
-<p>$ which pod<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 2. 查看CocoaPods位置</span><br></pre></td></tr></table></figure></p>
-<p>$ sudo rm -rf 路径<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 3. 查看CocoaPods版本（```-bash: /usr/local/bin/pod: No such file or directory```即删除成功）</span><br></pre></td></tr></table></figure></p>
-<p>$ pod –version<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 4. 打印gem 下的所有包查看cocoapods版本号</span><br></pre></td></tr></table></figure></p>
-<p>$ gem list<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 5. 移除程序包(如果要删除依赖包只需要更改“cocoapods”即可)</span><br></pre></td></tr></table></figure></p>
-<p>$ sudo gem uninstall cocoapods -v 版本号<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 6. 删除repos包（大约300+M）</span><br></pre></td></tr></table></figure></p>
-<p>$ rmdir ~/.cocoapods<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">###多版本共存与使用</span><br><span class="line">&gt; 1. 安装指定版本Cocoapods</span><br></pre></td></tr></table></figure></p>
-<p>$ sudo gem install cocoapods -v 0.35.0<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 2. 使用指定版本Cocoapods</span><br></pre></td></tr></table></figure></p>
-<p>$ pod <em>0.35.0</em> install,    pod <em>0.38.2</em> install<br>```</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/undefined  typeth/15/仅仅一个UIImageView就可以实现无限轮播图效果/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="彭盛凇">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="彭盛凇的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/undefined  typeth/15/仅仅一个UIImageView就可以实现无限轮播图效果/" itemprop="url">仅仅一个UIImageView就可以实现无限轮播图效果</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-15T23:04:26+08:00">
-                2017-11-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="http://upload-images.jianshu.io/upload_images/1505288-93870e8644cd442d.gif?imageMogr2/auto-orient/strip" alt="效果图"></p>
-<p>首先感谢右侧链接代码中的图片素材😁~<a href="http://www.code4app.com/forum.php?mod=viewthread&amp;tid=11742&amp;extra=page%3D1" target="_blank" rel="noopener">大神使用UICollectionView实现的轮播图</a></p>
-<p>据说此三方好多好多人用<a href="https://github.com/gsdios/SDCycleScrollView" target="_blank" rel="noopener">强大的第三方框架SDCycleScrollView</a></p>
-<p>###轮播图的实现方式</p>
-<blockquote>
-<ol>
-<li>使用UIScrollView通过contentSize设置UIImageView的展示预处理</li>
-<li>使用UICollectionView通过设置item</li>
-<li>使用UISwipeGestureRecognizeror或者TouchesBegan等方法</li>
-</ol>
-</blockquote>
-<p>网络上大部分是使用UIScrollView配合三个或者两个UIImageView来实现的轮播图，就再想可不可以使用一个UIImgeView实现，从而第三种实现方式也就诞生了，虽然不是特别实用，但是也算是一种简单思维</p>
-<hr>
-<p>###UISwipeGestureRecognizeror（清扫手势）逻辑</p>
-<blockquote>
-<ol>
-<li>通过UIImageView添加向左向右的轻扫手势</li>
-<li>当触发轻扫手势的响应事件时，重新设置Index</li>
-<li>使用CATransition的Type（Push）和SubType（Left/Right）来进行实现对应的向左向右的转场动画</li>
-<li>更改完Index时，在CATransition动画中从img数组中取出对应图片并赋值给UIImageView</li>
-<li>赋值图片的同时更改pageControl的currentPage来实现轮播图的精仿</li>
-</ol>
-</blockquote>
-<hr>
-<p>###TouchesBegan等方法的逻辑</p>
-<blockquote>
-<ol>
-<li>写一个UIImageView的子类，并在其中实现Began、Move、End方法</li>
-<li>和使用UIBezierPath绘制画板同理，首先在Touch等方法中获取对应的点</li>
-<li>根据点的位置改变来判断向左滑还是向右滑</li>
-<li>使用CATransition的Type（Push）和SubType（Left/Right）来进行实现对应的向左向右的转场动画</li>
-<li>更改完Index时，在CATransition动画中从img数组中取出对应图片并赋值给UIImageView</li>
-<li>赋值图片的同时更改pageControl的currentPage来实现轮播图的精仿</li>
-</ol>
-</blockquote>
-<hr>
-<blockquote>
-<p>主要以UISwipeGestureRecognizeror为例子🌰</p>
-</blockquote>
-<p>###UISwipeGestureRecognizeror（清扫手势）相关代码</p>
-<blockquote>
-<p>一些懒加载，注释已经标明清楚</p>
-</blockquote>
-<pre><code>var selectedIndex = 0//当前图片
-
-lazy var imageView: UIImageView = {//展示image
-    let imageview = UIImageView()
-    imageview.image = UIImage(named: &quot;\(self.selectedIndex)&quot;)
-    return imageview
-}()
-
-lazy var swipeRight: UISwipeGestureRecognizer = {//从左往右滑手势
-    let swipe = UISwipeGestureRecognizer(target: self, action: #selector(tapRightAction))
-    swipe.direction = .right
-
-    return swipe
-}()
-
-lazy var swipeLeft: UISwipeGestureRecognizer = {//从右往左滑手势
-    let swipe = UISwipeGestureRecognizer(target: self, action: #selector(tapLeftAction))
-
-    swipe.direction = .left
-    return swipe
-}()
-
-lazy var page: UIPageControl = {
-
-    let page = UIPageControl()
-
-    page.numberOfPages = self.dataList.count
-
-    page.currentPage = self.selectedIndex
-
-    page.pageIndicatorTintColor = UIColor.green
-
-    page.currentPageIndicatorTintColor = UIColor.red
-
-    return page
-}()
-
-lazy var dataList: Array&lt;String&gt; = {//image数据源
-
-    var arr: Array&lt;String&gt; = []
-
-    for i in 0...10 {
-        arr.append(&quot;\(i)&quot;)
-    }
-
-    return arr
-}()
-</code></pre><blockquote>
-<p>viewDidLoad</p>
-</blockquote>
-<pre><code>override func viewDidLoad() {
-    super.viewDidLoad()
-
-    imageView.frame = CGRect(x: 0, y: 0, width: screen_width, height: screen_height)
-
-    //重要！！！！！！！ 给imageView添加手势需要将isUserInteractionEnabled设置为true
-    imageView.isUserInteractionEnabled = true
-
-    //添加向左手势
-    imageView.addGestureRecognizer(swipeLeft)
-
-    //添加向右手势
-    imageView.addGestureRecognizer(swipeRight)
-
-    //获取page的size
-    let pageSize = page.size(forNumberOfPages: dataList.count)
-
-    page.frame = CGRect(x: 0, y: imageView.frame.maxY - pageSize.height, width: pageSize.width, height: pageSize.height)
-
-    page.center.x = imageView.frame.width / 2
-
-    view.addSubview(imageView)
-
-    view.addSubview(page)
-
-}
-</code></pre><blockquote>
-<p>从左往右滑动的响应事件</p>
-</blockquote>
-<pre><code>func tapRightAction() {//从左往右滑动
-
-    //使用CA转场动画来改变方式
-
-    let transition = CATransition()
-
-    transition.type = kCATransitionPush
-
-    transition.subtype = kCATransitionFromLeft
-
-    //这句话也就是最重要的，根据selectedIndex的值来确定是否已经到最左侧，如果到最左侧，将selectedIndex重置为10
-    selectedIndex = selectedIndex &lt;= 0 ? 10 : selectedIndex - 1
-
-    page.currentPage = selectedIndex
-
-    imageView.image = UIImage(named: &quot;\(dataList[selectedIndex])&quot;)
-
-    imageView.layer.add(transition, forKey: &quot;right&quot;)
-
-}
-</code></pre><blockquote>
-<p>从右往左滑动的响应事件</p>
-</blockquote>
-<pre><code>func tapRightAction() {//从左往右滑动
-
-    //使用CA转场动画来改变方式
-
-    let transition = CATransition()
-
-    transition.type = kCATransitionPush
-
-    transition.subtype = kCATransitionFromRight
-
-    //这句话也就是最重要的，根据selectedIndex的值来确定是否已经到最左侧，如果到最右侧，将selectedIndex重置为0
-    selectedIndex = selectedIndex &gt;= 10 ? 0 : selectedIndex + 1
-
-    page.currentPage = selectedIndex
-
-    imageView.image = UIImage(named: &quot;\(dataList[selectedIndex])&quot;)
-
-    imageView.layer.add(transition, forKey: &quot;left&quot;)
-
-}
-</code></pre><p>Touches基本同理，再此不一一赘述了</p>
-<hr>
-<blockquote>
-<p>总结</p>
-<ol>
-<li>使用UISwipeGestureRecognizer无需考虑UIImageView的复用问题，因为只有一个imaegView</li>
-<li>轮播图分为手动和自动，本文为手动控制没有加timer，如果改为自动，只需要在在定时调用方法即可</li>
-<li>使用UISwipeGestureRecognizer实现，手指滑动一点点，再划回来，这个暂时没有好的解决方式，但是可以使用Touches的相关方法解决，因为手指离开才回去调用End方法</li>
-</ol>
-</blockquote>
-<hr>
-<blockquote>
-<p>小尾巴~~~</p>
-</blockquote>
-<p>为什么很多人不用这种方法，坐等各位大神回复，个人觉得没有什么问题，完全可以精仿</p>
-<blockquote>
-<p>demo地址<br><a href="https://github.com/pengshengsongcode/CycleImageView" target="_blank" rel="noopener">github</a></p>
-</blockquote>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -716,9 +251,7 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/undefined  typeth/15/根据图片获取拍摄地点和拍摄时间/" itemprop="url">根据图片获取拍摄地点和拍摄时间</a></h1>
+          <h1 class="post-title" itemprop="name headline">根据图片获取拍摄地点和拍摄时间</h1>
         
 
         <div class="post-meta">
@@ -768,9 +301,7 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
       
 
       
-        
-          
-            <p><img src="http://upload-images.jianshu.io/upload_images/1505288-78d9b8f676a4ac7e.gif?imageMogr2/auto-orient/strip" alt="效果图.gif"></p>
+        <p><img src="http://upload-images.jianshu.io/upload_images/1505288-78d9b8f676a4ac7e.gif?imageMogr2/auto-orient/strip" alt="效果图.gif"></p>
 <p>参考<br><a href="http://blog.csdn.net/li1990101010/article/details/50462331" target="_blank" rel="noopener">iOS 获得图片的时间（通过拍照和取出）</a><br><a href="http://www.cocoachina.com/bbs/read.php?tid=103913png" target="_blank" rel="noopener">如何获取iPhone拍摄的png照片的拍摄时间,位置信息等图片属性?  </a></p>
 <p>###简单理念</p>
 <blockquote>
@@ -793,8 +324,6 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#123;//相册</span><br><span class="line">        </span><br><span class="line">        NSURL *assetURL = [info objectForKey:UIImagePickerControllerReferenceURL];</span><br><span class="line">        </span><br><span class="line">        ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];</span><br><span class="line">        </span><br><span class="line">        __block NSMutableDictionary *imageMetadata_GPS = nil;</span><br><span class="line">        </span><br><span class="line">        __weak typeof(self)weakSelf = self;</span><br><span class="line">        </span><br><span class="line">        [library assetForURL:assetURL resultBlock:^(ALAsset *asset) &#123;</span><br><span class="line">            </span><br><span class="line">             //获取时间</span><br><span class="line">             NSDate* pictureDate = [asset valueForProperty:ALAssetPropertyDate];</span><br><span class="line">             NSDateFormatter * formatter = [[NSDateFormatter alloc]init];</span><br><span class="line">             formatter.dateFormat = @&quot;yyyy:MM:dd HH:mm:ss&quot;;</span><br><span class="line">             formatter.timeZone = [NSTimeZone localTimeZone];</span><br><span class="line">             NSString * pictureTime = [formatter stringFromDate:pictureDate];</span><br><span class="line">             weakSelf.time.text = pictureTime;</span><br><span class="line">             </span><br><span class="line">             //获取GPS</span><br><span class="line">             imageMetadata_GPS = [[NSMutableDictionary alloc] initWithDictionary:asset.defaultRepresentation.metadata];</span><br><span class="line">             </span><br><span class="line">             NSDictionary *GPSDict=[imageMetadata_GPS objectForKey:(NSString*)kCGImagePropertyGPSDictionary];</span><br><span class="line">             </span><br><span class="line">             if (GPSDict!=nil) &#123;</span><br><span class="line">                 </span><br><span class="line">                 CLLocation *loc=[GPSDict locationFromGPSDictionary];</span><br><span class="line">                 </span><br><span class="line">                 weakSelf.weidu.text = [NSString stringWithFormat:@&quot;%f&quot;, loc.coordinate.latitude];</span><br><span class="line">                 weakSelf.jingdu.text = [NSString stringWithFormat:@&quot;%f&quot;, loc.coordinate.longitude];</span><br><span class="line">                 </span><br><span class="line">                 CLGeocoder *clGeoCoder = [[CLGeocoder alloc] init];</span><br><span class="line">                 </span><br><span class="line">                 CLLocation *newLocation = [[CLLocation alloc] initWithLatitude:loc.coordinate.latitude longitude:loc.coordinate.longitude];</span><br><span class="line">                 </span><br><span class="line">                 //反向地理编码的请求 -&gt; 根据经纬度 获取 位置</span><br><span class="line">                 [clGeoCoder reverseGeocodeLocation:newLocation completionHandler: ^(NSArray *placemarks,NSError *error) &#123;</span><br><span class="line">                     for (CLPlacemark *placeMark in placemarks)</span><br><span class="line">                     &#123;</span><br><span class="line">                         NSDictionary *addressDic=placeMark.addressDictionary;</span><br><span class="line">                         </span><br><span class="line">                         NSArray *location_Arr = [addressDic objectForKey:@&quot;FormattedAddressLines&quot;];//系统格式化后的位置</span><br><span class="line">                         </span><br><span class="line">                         weakSelf.location.text = [location_Arr firstObject];</span><br><span class="line">                         </span><br><span class="line">                     &#125;</span><br><span class="line">                 &#125;];</span><br><span class="line"></span><br><span class="line">             &#125;else&#123;</span><br><span class="line">                     weakSelf.weidu.text = @&quot;此照片没有GPS信息&quot;;</span><br><span class="line">                     weakSelf.jingdu.text = @&quot;此照片没有GPS信息&quot;;</span><br><span class="line">                     weakSelf.location.text = @&quot;此照片没有拍摄位置&quot;;</span><br><span class="line">                 &#125;</span><br><span class="line">                 </span><br><span class="line">             &#125;</span><br><span class="line">     </span><br><span class="line">            failureBlock:^(NSError *error) &#123;</span><br><span class="line">        &#125;];</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 <p>###demo地址<br><a href="https://github.com/pengshengsongcode/ThroughPicGetShootPlaceWithTime" target="_blank" rel="noopener">https://github.com/pengshengsongcode/ThroughPicGetShootPlaceWithTime  </a></p>
 
-          
-        
       
     </div>
     
@@ -811,148 +340,32 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/undefined  typeth/15/苹果手机铃声设置（非越狱、无需下载软件2017最新版本）/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="彭盛凇">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="彭盛凇的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/undefined  typeth/15/苹果手机铃声设置（非越狱、无需下载软件2017最新版本）/" itemprop="url">苹果手机铃声设置（非越狱、无需下载软件2017最新版本）</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-15T22:53:16+08:00">
-                2017-11-15
-              </time>
+              <a href="/2017/undefined  typeth/15/苹果手机铃声设置（非越狱、无需下载软件2017最新版本）/" rel="next" title="苹果手机铃声设置（非越狱、无需下载软件2017最新版本）">
+                <i class="fa fa-chevron-left"></i> 苹果手机铃声设置（非越狱、无需下载软件2017最新版本）
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
+              <a href="/2017/undefined  typeth/15/仅仅一个UIImageView就可以实现无限轮播图效果/" rel="prev" title="仅仅一个UIImageView就可以实现无限轮播图效果">
+                仅仅一个UIImageView就可以实现无限轮播图效果 <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>本文中提到的方式，暂时只支持已有歌曲，如果觉得麻烦，文章结尾有弄完的.m4r文件，下载下来直接走第六步即可</p>
-<p>1、打开网易云音乐、找到你想作为手机铃声的歌曲，并下载至桌面</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-d4c0bff872b4545d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="屏幕快照 2017-11-14 下午1.52.15.png"></p>
-<p>2、打开QuickTime Player,并将下载的歌曲文件拖拽进去</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-71bdb551b600488b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="屏幕快照 2017-11-14 下午1.54.20.png"></p>
-<p>3、点击nav上的编辑 - 修建，进行对音乐的截取（控制在40S下）</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-579015eb6b3c41e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="屏幕快照 2017-11-14 下午1.56.16.png"></p>
-<p>4、将截取的音乐导出至桌面</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-6214dde13080cd59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="屏幕快照 2017-11-14 下午1.57.29.png"></p>
-<p>5、并将文件后缀添加”.m4r”字样，并选择 使用m4r</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-2cac7bae3c71debb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="屏幕快照 2017-11-14 下午2.02.51.png"><br>[图片上传中…(屏幕快照 2017-11-14 下午2.02.19.png-b7332f-1510639448164-0)]</p>
-<p>6、打开电脑iTunes并链接自己手机，将.m4r文件拉进如图所示的界面</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-cdc4f458362eda4c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="屏幕快照 2017-11-14 下午2.02.19.png"></p>
-<p>7、使用手机打开设置 - 声音 - 铃声和震动 - 电话铃声，选择自定义的铃声就OK了</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-28563e3d8834eba3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/200" alt="lADPBbCc1SD0_U_NBTbNAu4_750_1334.jpg_620x10000q90g.jpg"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1505288-24e55709c1aaaae7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/200" alt="lALPBbCc1SD0_VLNBTbNAu4_750_1334.png_620x10000q90g.jpg"></p>
-<p>样例文件： <a href="https://github.com/pengshengsongcode/DiyRingTone.git" target="_blank" rel="noopener">https://github.com/pengshengsongcode/DiyRingTone.git</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -962,138 +375,11 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/undefined  typeth/15/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="彭盛凇">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="彭盛凇的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/undefined  typeth/15/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-15T22:22:57+08:00">
-                2017-11-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -1101,6 +387,10 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1299,6 +589,10 @@ lazy var dataList: Array&lt;String&gt; = {//image数据源
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
